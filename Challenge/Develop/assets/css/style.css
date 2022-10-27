@@ -189,11 +189,23 @@ These CSS properties style the images on the aside box*/
 }
 /* 
 These CSS selector properties are targetting the HTML class footer 
-in which it gives it style. */
+in which it gives paragraph style. I also added the font size for the 
+heading <4> on here since the there is already an CSS selector targetting the
+paragraphs font size. */
 
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 20px;
 }
+
+/* 
+DELETED, This CSS selector property are targetting the HTML element heading <4> to give 
+give it the font size. 
+/* 
+.footer h4 {
+    font-size: 20px;
+}  */
+
