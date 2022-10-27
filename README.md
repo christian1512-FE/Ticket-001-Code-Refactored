@@ -21,7 +21,7 @@ In order to improve the codes web accessibities I changed the non-semantic eleme
 
 Modifications to the HTML code. 
 
-Changed the name of the website on the <head> element changed the title of the website to "Horiseon Social Solution Services"
+Changed the name of the website on the "head" element changed the title of the website to "Horiseon Social Solution Services"
 
 *Added the <header> element in which is used to represent introductory content. 
 
