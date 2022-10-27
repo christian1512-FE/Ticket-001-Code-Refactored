@@ -19,7 +19,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 In order to improve the codes web accessibities I changed the non-semantic elements to semantic elements, added alt attributes to images, and fixed links that werent working properly on the website.
 
 
-"Modifications to the HTML code. 
+Modifications to the HTML code. 
 
 Changed the name of the website on the <head> element changed the title of the website to "Horiseon Social Solution Services"
 
@@ -46,7 +46,7 @@ Changed the <div> class to <section> class the section element in which is used 
 
 *Changed the footers <div class> to <footer class>
 
-*Changed the heading attribute <h2> on footer to <h4> so it falls in sequental order."
+*Changed the heading attribute <h2> on footer to <h4> so it falls in sequental order.
 
 
 
@@ -55,7 +55,7 @@ Changed the <div> class to <section> class the section element in which is used 
 CSS style sheet modifications. There were several modification I applied to the CSS style sheet such as grouping CSS selectors, deleting some CSS selectors, renaming CSS selectors and organizing the CSS selectors and properties to follow the semantic structure of the HTML elements. 
 
 
-"Renaming CSS selectors. 
+Renaming CSS selectors. 
 As seen on the HTML sheet modifications I changed the <div> HTML element to <nav>.
 
   BEFORE                                       AFTER 
@@ -114,7 +114,7 @@ This CSS selector was used to give the footer <h4> font-size. Instead I added th
 
 .footer h2 {
     font-size: 20px;
-}"
+}
 
 
 ## License
