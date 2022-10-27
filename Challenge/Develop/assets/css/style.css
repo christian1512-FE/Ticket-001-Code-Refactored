@@ -30,7 +30,7 @@ These selectors properties style and set the font*/
     font-size: 48px;
 }
 
-/* DELETED To make the header <1> more accessbile. */
+/* DELETED To make the header <1> more accessbile to read. */
 /* 
 .header h1 .seo {
     color: #d9dcd6;
@@ -67,12 +67,6 @@ a {
     
 } 
 
-/* This CSS selector is targeting the HTML element <p> in which 
-is used to give the paragraphs the font size.  */
-
-p {
-    font-size: 16px;
-}
 
 /* This CSS selector is targeting the class "hero" which is the background image of the website.*/
 
@@ -85,6 +79,40 @@ p {
     background-position: center;
 }
 
+
+/* This CSS selector is targeting the HTML class "content" in which the properties used
+give style to the main three boxes in the middle of the page.  */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+} 
+
+
+
+/* Here we have a selector list. I combined all three of them since they all had the same rule. 
+These CSS properties are targetting the HTML classes in which are used to style the main three boxes in
+the middle of the page. */
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+
+}
+
+/* Here we have a selector list. I combined all three of them since they all had the same rule. 
+These CSS properties are targetting the HTML "<img> element in which embeds the images on the main
+three boxes in the middle of the page.*/
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+
+}
 
 /* This CSS selector is targetting the HTML classes "float-left" & .float-right. 
 The properties on this selector are used to style and to set the images in the main 3 middle boxes to either 
@@ -100,14 +128,22 @@ left or right. */
     margin-left: 25px;
 } 
 
-/* This CSS selector is targeting the HTML class "content" in which the properties used
-give style to the main three boxes in the middle of the page.  */
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-} 
+/* Here we have a selector list. I combined all three of them since they all had the same rule. 
+These CSS properties are targeting the HTML headings <2> in which are used to style and give the font size 
+the heading of the main three boxes in the middle of the page*/
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This CSS selector is targeting the HTML element <p> in which 
+is used to give all paragraphs using that element the same font size.  */
+
+p {
+    font-size: 16px;
+}
 
 
 /* This CSS selector is targetting the class "benefits". The properties under the CSS selector give style 
@@ -151,42 +187,9 @@ These CSS properties style the images on the aside box*/
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* Here we have a selector list. I combined all three of them since they all had the same rule. 
-These CSS properties are targetting the HTML classes in which are used to style the main three boxes in
-the middle of the page. */
-
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-
-}
-
-
-/* Here we have a selector list. I combined all three of them since they all had the same rule. 
-These CSS properties are targetting the HTML "<img> element in which embeds the images on the main
-three boxes in the middle of the page.*/
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-
-}
-
-
-/* Here we have a selector list. I combined all three of them since they all had the same rule. 
-These CSS properties are targeting the HTML headings <2> in which are used to style and give the font size 
-the heading of the main three boxes in the middle of the page*/
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* adsfadsfadsfadsfadsfadsfasdfadsfdas */
+/* 
+These CSS selector properties are targetting the HTML class footer 
+in which it gives it style. */
 
 .footer {
     padding: 30px;
@@ -194,11 +197,3 @@ the heading of the main three boxes in the middle of the page*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-/* DELETED THIS CODE  */
-/* 
-.footer h2 {
-    font-size: 40px;
-} */
-
-/* <<<<<<<<<<<<<<<<< END OF CODE >>>>>>>>>>>>>>>>>>>>>>>>>> */
