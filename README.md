@@ -55,7 +55,6 @@ Changed the <div> class to <section> class the section element in which is used 
 
 CSS style sheet modifications. There were several modification I applied to the CSS style sheet such as grouping CSS selectors, deleting some CSS selectors, renaming CSS selectors and organizing the CSS selectors and properties to follow the semantic structure of the HTML elements. 
 
-`code`
 
 Renaming CSS selectors. 
 As seen on the HTML sheet modifications I changed the <div> HTML element to <nav>.
@@ -117,7 +116,6 @@ This CSS selector was used to give the footer <h4> font-size. Instead I added th
 .footer h2 {
     font-size: 20px;
 }
-`code`
 
 
 
